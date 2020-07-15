@@ -1,1 +1,1 @@
-web: gunicorn PoliceApp.wsgi
+web: gunicorn PoliceApp.wsgi --log-file -
